@@ -1,0 +1,78 @@
+@charset "utf-8";
+html {
+  font: 62.5%/1 Meiryo;
+}
+
+p{
+  margin: 0;
+  padding: 0
+}
+body{
+/*  background: #263238;*/
+  background: #263238;
+}
+
+#game__wrapper{
+  margin: 0 auto;
+  width: 400px;
+  height: 800px;
+}
+table,
+#game__start,
+#game__over{
+  /*margin: 0 auto;*/
+  width: 400px;
+  height: 800px;
+}
+
+#game__inner{
+  position: relative;
+}
+
+td{
+  background: #455A64;
+  width: 10%;
+  height: 5%;
+}
+
+.stick{
+  background: #03A9F4;
+}
+
+.default{
+  background: #455A64;
+}
+
+
+#game{
+  position: absolute;
+}
+
+#game__start{
+  position: absolute;
+  background: #78909c;
+  display: block;
+}
+
+#game__over{
+  position: absolute;
+  background: #78909c;
+  display: none;
+}
+
+#game__start > p{
+color: #e3f2fd;
+}
+
+.game__title{
+  font-size: 4rem;
+  margin-top: 335px;
+  text-align: center;
+}
+
+.game__sentence{
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+
